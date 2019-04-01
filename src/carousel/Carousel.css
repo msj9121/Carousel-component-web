@@ -1,0 +1,48 @@
+.carousel {
+  position: relative;
+}
+
+.cards-slider {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel-nav {
+  cursor: pointer;
+  padding: 0;
+  background-color: rgba( 0, 0, 0, 0.0 );
+  opacity: 0.7;
+  border: none;
+  outline: none;
+  position: absolute;
+  color: white;
+  font-size: 40px;
+}
+
+.carousel-nav-left {
+  top: 50%;
+  left: 3%;
+  z-index: 5;
+}
+
+.carousel-nav-left:hover {
+  opacity: 1;
+}
+
+.carousel-nav-right {
+  top: 50%;
+  right: 3%;
+  z-index: 5;
+}
+
+.carousel-nav-right:hover {
+  opacity: 1;
+}
+
+.cards {
+  display: flex;
+  position: relative;
+  transition: transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  left: 0%;
+}
